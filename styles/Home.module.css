@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -63,9 +63,9 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
-}
+} */
 
-.grid {
+/* .grid {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,4 +126,35 @@
   .logo img {
     filter: invert(1);
   }
+} */
+
+/* .css-0{
+  width:'700px'
+}
+
+.Box {
+  width: 100%;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 30em) {
+  .Box {
+    width: 50%;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .Box {
+    width: 25%;
+    flex-direction: row;
+  }
+} */
+
+@media (min-width: 600px) { 
+	.grid {
+		-ms-flex-preferred-size: 25%;
+		flex-basis: 25%;
+		max-width: 25%;	
+	}
 }
