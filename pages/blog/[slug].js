@@ -46,10 +46,11 @@ const Post = () => {
 
 
    <Flex flexDir='column' mt='5em'>
-   <Text alt='Icon'lineHeight='2em'>
+   
     <Heading style={{color: 'white',
             fontWeight: '500',
             fontSize: '20px',}}>Contact Us</Heading>
+            <Text alt='Icon'lineHeight='2em'>
         Lorem Ipsum Pvt, Ltd5/1, Magalton <Spacer/>Road, Phartosh Gate near YTM<Spacer/> Market, XYZ-343434
    <Spacer/>
    <Spacer/>

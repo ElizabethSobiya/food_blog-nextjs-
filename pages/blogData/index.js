@@ -8,10 +8,10 @@ const FoodList = ({foodData}) => {
     return <div >
     {posts.map((post) => {
         return (
-       <>
+       <div>
         <Image src={post.featured_image} alt='Icon' p ='5' width= '107' height='83' objectFit='cover'/>
         <Box>{post.title}</Box>
-       </>
+       </div>
    )
     })}
     </div>

@@ -6,6 +6,7 @@ import Buy from './buy'
 import Footer from './footer'
 // import Axios from 'axios'
 
+
 export default function Home() {
   // const posts = foodData.data
   return (   

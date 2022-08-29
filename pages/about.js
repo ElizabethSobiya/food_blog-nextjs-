@@ -30,10 +30,10 @@ export default function About() {
             Lorem Ipsum has been industry's
             standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type speciemen book. It has survived not only five centuries.
+            </Text>
             <Button colorScheme='red'
               borderRadius='30'
               p={5} ml= '1.5em' mt= '2em' width ='10em' height ='3.5em'>Read More</Button>
-            </Text>
         </Box>
         </Flex>
         </Flex>
