@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router'
 import { Heading , Highlight, Text, Button, Box, Flex, Spacer, Grid} from '@chakra-ui/react'
 import Image from 'next/image'
-import img from '.../public/icon'
-import insta from '.../public/'
+import img from '.../public/icon.jpg'
+import insta from '.../public/insta.png'
 
 const Post = () => {
   const router = useRouter()
