@@ -37,11 +37,10 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #E23744;
+  background: #e23744;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background:#E23744;
+  background: #e23744;
 }
-

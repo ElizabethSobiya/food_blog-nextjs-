@@ -1,23 +1,22 @@
-import LandingPage from './landingPage'
-import About from './about'
-import Articles from './articles'
+import LandingPage from "./landingPage";
+import About from "./about";
+import Articles from "./articles";
 // import FoodList from './blogData/index'
-import Buy from './buy'
-import Footer from './footer'
+import Buy from "./buy";
+import Footer from "./footer";
 // import Axios from 'axios'
-
 
 export default function Home() {
   // const posts = foodData.data
-  return (   
+  return (
     <>
-     <LandingPage/>
-     <About/>
-     <Articles />
-     <Buy/>
-     <Footer/>
+      <LandingPage />
+      <About />
+      <Articles />
+      <Buy />
+      <Footer />
     </>
-  )
+  );
 }
 
 // export const getStaticProps = async () =>{

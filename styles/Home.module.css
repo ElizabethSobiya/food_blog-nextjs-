@@ -151,10 +151,10 @@
   }
 } */
 
-@media (min-width: 600px) { 
-	.grid {
-		-ms-flex-preferred-size: 25%;
-		flex-basis: 25%;
-		max-width: 25%;	
-	}
+@media (min-width: 600px) {
+  .grid {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
 }
